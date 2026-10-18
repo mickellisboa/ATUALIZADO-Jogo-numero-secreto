@@ -5,7 +5,7 @@ let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 //adicionando esta linha teste para commite
 console.log(numeroSecreto);
-
+console.log("para testar");
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
